@@ -5,7 +5,7 @@ class Artist
 
   @@all = []
 
-  def initialize(name)
+  def initialize(name ="Michael Jackson")
     @name = name
     @songs = []
   end
